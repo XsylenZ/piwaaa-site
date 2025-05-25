@@ -12,7 +12,7 @@ Bij Piwaaa's Food Waggy zijn de mogelijkheden net zo uitgebreid als ons menu!
 * **Privéfeesten:** Maak je verjaardag, jubileum of bruiloft extra speciaal met onze food wagen. Wij nemen de culinaire organisatie uit handen, zodat jij volop kunt genieten.
 * **Bedrijfsevenementen & Catering:** Verras je personeel of klanten met een unieke lunch of diner op locatie. Ideaal voor bedrijfsuitjes, open dagen of personeelsfeesten.
 
-**Piwaaa Food Waggie boeken?**
+**Piwaaa's Food Waggy boeken?**
 Benieuwd naar de mogelijkheden? Stuur een mail naar {{< icon name="envelope" >}} piwaaa-dienstverlening@hotmail.com met de volgende info:
 1.  **Gewenste datum, tijd en locatie:** Waar, wanneer en hoe laat komen we langs?
 2.  **Aantal personen:** Geef een schatting van het aantal gasten.
