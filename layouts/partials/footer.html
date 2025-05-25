@@ -49,11 +49,13 @@
         var swipers = document.querySelectorAll('.swiper-container');
         swipers.forEach(function(swiperElement) {
           new Swiper(swiperElement, {
-            // loop: true,
-            // autoplay: {
-            //   delay: 3000,
-            //   disableOnInteraction: false,
-            // },
+            loop: true,
+            observer: true,
+            observerParents: true,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+            },
             pagination: {
               el: swiperElement.querySelector('.swiper-pagination'),
               clickable: true,
