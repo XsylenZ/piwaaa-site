@@ -5,7 +5,9 @@
         {{ else }}
         {{ range .Params }}
         <div class="swiper-slide">
-            <img src="{{ . | relURL }}" alt="Carousel Image" style="width:100%; height:auto;">
+            <div class="swiper-slide-content">
+                <img src="{{ . | relURL }}" alt="Carousel Image">
+            </div>
         </div>
         {{ end }}
         {{ end }}
@@ -14,22 +16,3 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
 </div>
-
-<style>
-    .my-custom-swiper {
-        width: 100%; /* Maak de carrousel 100% breed van zijn container */
-        height: 400px; /* Stel een vaste hoogte in. Pas dit aan naar wens! */
-        margin: 20px auto; /* Centreer de carrousel en geef wat ruimte erboven/onder */
-    }
-    .my-custom-swiper .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #f0f0f0; /* Lichte achtergrondkleur voor slides zonder afbeelding */
-    }
-    .my-custom-swiper .swiper-slide img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover; /* Zorgt ervoor dat afbeeldingen de slide vullen zonder vervorming */
-    }
-</style>
